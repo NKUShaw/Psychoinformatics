@@ -4,7 +4,7 @@
 - [Yang Xiao](https://scholar.google.co.uk/citations?hl=zh-TW&user=FvnT29sAAAAJ)(2013241@mail.nankai.edu.cn) (yax3417@utulsa.edu)
 
 #### Graduate Thesis: 
- - [Chinese]**基于深度学习的面部表情识别研究**, [Preprint] **(答辩后会公开)**
+ - [Chinese]**基于深度学习的面部表情识别研究**
  - [English]**A study of facial expression data based on deep learning technology**, **(To be continued)**
 
 #### Abstract: 
