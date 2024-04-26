@@ -3,7 +3,7 @@
 #### Authors: 
 - [Yang Xiao]() (2013241@mail.nankai.edu.cn) (yax3417@utulsa.edu)
 
-#### Graduate Thesis: [ICLR 2023](https://openreview.net/forum?id=X9yCkmT5Qrl), [Preprint]()
+#### Graduate Thesis: [Chinese]基于深度学习的面部表情识别研究, [Preprint]()
 
 
 Click on the folder if you want to train or explain a deep learning model for a given labels(memory or psychology).
