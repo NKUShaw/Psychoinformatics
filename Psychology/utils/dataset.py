@@ -8,9 +8,9 @@ from torch.utils.data import Dataset
 def load_data(labels_file, random_state=42):
     dataframe = pd.read_excel(labels_file)
     train_val_df, test_df = train_test_split(dataframe, test_size=0.2, random_state=random_state)
-    # train_df, val_df = train_test_split(train_val_df, test_size=0.2, random_state=random_state)
-    train_df = train_val_df.reset_index(drop=True)
-    val_df = test_df.reset_index(drop=True)
+    train_df, val_df = train_test_split(train_val_df, test_size=0.2, random_state=random_state)
+    train_df = train_df.reset_index(drop=True)
+    val_df = val_df.reset_index(drop=True)
     test_df = test_df.reset_index(drop=True)
     return train_df, val_df, test_df
 
