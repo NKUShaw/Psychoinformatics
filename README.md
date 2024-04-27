@@ -12,5 +12,12 @@ The complex information processing system of humans generates a lot of objective
 
 #### Key Words: Psychological attributes; Neural network; Machine learning; Deep learning; Manifold learning
 
-#### Notice: Due to storage limitations, the weight files cannot be uploaded. If you need to make a comparison by testing in my weight files, please contact me via email.
-Click on the folder if you want to train or explain a deep learning model for a given labels(memory or psychology).
+#### Notice: 
+Due to storage limitations, the weight files cannot be uploaded. If you need to make a comparison by testing in my weight files, please contact me via email.
+
+#### Please run the following command to do train process.
+```
+python {Memory/Psychology}/main.py --model={VGG16/VIT/Others} --batch_size=40 --lr=5e-4 --target={whatyoupredict} 
+```
+
+
